@@ -17,7 +17,7 @@ button {
     on crée des variable qui contiennent des couleurs de thème
     */
     --couleur-fond: #000000;
-    --couleur-victoire: #000000;
+    --couleur-victoire: url('./nouveau-carte/banana.png');
     --couleur-texte: #d5e217;
     --bordure-carte: #4b5152;
     --bordure-bouton: #ffc402;
@@ -30,7 +30,6 @@ body {
     /* var(--nom-de-variable) permet de rappeler une variable crée plus haut */
     background-color: var(--couleur-fond);
     background-image: url('./nouveau-carte/banana.png');
-    --couleur-victoire: url('./nouveau-carte/banana.png');
     /*
     toutes les propriétés liées à la police sont automatiquement propagées a tous les éléments enfants de l'élément actuel(
     */
